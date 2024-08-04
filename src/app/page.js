@@ -3,23 +3,6 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import 'remixicon/fonts/remixicon.css'
 export default function Home() {
-    // const [isLoading, setIsLoading] = useState(false)
-    // const getQuotes = () => {
-    //     setQuote([])
-    //     setIsLoading(true)
-    //     fetch('https://type.fit/api/quotes')
-    //       .then(function (response) {
-    //         return response.json()
-    //       })
-    //       .then((data) => {
-    //         setQuote(data)
-    //         setIsLoading(false)
-    //       })
-    //       .catch(() => {
-    //         setIsLoading(false)
-    //       })
-    //   }
-
     const search = async (quotes)=> {
     const url = `https://type.fit/api/quotes`;
     const response = await fetch(url);
