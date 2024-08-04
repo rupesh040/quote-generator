@@ -27,7 +27,7 @@ export default function Home() {
   <div class="container w-[100vw] h-[100vh] flex justify-center items-center overflow-hidden">
         <div class="card max-w-[500px] m-5 rounded-3xl bg-black overflow-hidden">
             <div class="top w-[100%] h-11 bg-orange-300 flex items-center p-5 justify-between gap-1">
-             <p>{quote.author}</p>
+             <p>{quote.author.split(", type.fit")}</p>
              <i class="ri-reset-right-fill cursor-pointer font-bold" onClick={search}></i>
             </div>
             <p className="text-black p-5">
