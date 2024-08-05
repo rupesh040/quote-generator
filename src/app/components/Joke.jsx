@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 
-const joke = () => {
+const Joke = () => {
     const [joke,setJoke] = useState("Algorithm: A word used by programmers when they don't want to explain how their code works.");
     const fetchApi = () => {
         fetch("https://sv443.net/jokeapi/v2/joke/Programming?type=single")
@@ -21,4 +21,4 @@ const joke = () => {
   )
 }
 
-export default joke
+export default Joke
