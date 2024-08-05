@@ -42,7 +42,7 @@ export default function Home() {
             </p>
         </div> : <Joke/>}
 
-        <h1 className="text-[30vh] rounded-full absolute top-[50%] left-[50%] translate-x-[-50%]
+        <h1 className="text-[35vh] rounded-full absolute top-[50%] left-[50%] translate-x-[-50%]
   translate-y-[-50%] z-[-1] opacity-40 text">Rupesh.</h1>
   </div>
   </>
