@@ -1,7 +1,8 @@
 "use client"
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import 'remixicon/fonts/remixicon.css'
+import 'remixicon/fonts/remixicon.css';
+import Joke from "./components/Joke";
 export default function Home() {
       const [generate,setGenerate] = useState(true);
     const search = async (quotes)=> {
